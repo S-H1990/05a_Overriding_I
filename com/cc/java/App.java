@@ -4,7 +4,9 @@ public class App {
     
     public static void main(String[] args) {
      
-       
+     Child Child = new Child();
+     output(Child.sayHello());
+     output(Child.sayHello("Hi from"));
        
 
     }
